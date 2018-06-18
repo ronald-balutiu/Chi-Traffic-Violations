@@ -1,0 +1,76 @@
+{
+    "rlvbd": [
+        {"day":"Monday","val":263897},
+        {"day":"Tuesday","val":267900},
+        {"day":"Wednesday","val":273660},
+        {"day":"Thursday","val":284153},
+        {"day":"Friday","val":312460},
+        {"day":"Saturday","val":334798},
+        {"day":"Sunday","val":303270}
+        ],
+
+    "scvbd": [
+        {"day":"Monday","val":592506},
+        {"day":"Tuesday","val":609005},
+        {"day":"Wednesday","val":604867},
+        {"day":"Thursday","val":630182},
+        {"day":"Friday","val":652547},
+        {"day":"Saturday","val":581893},
+        {"day":"Sunday","val":568722}
+        ],
+
+    "ttvbd": [
+        {"day":"Monday","val":856403},
+        {"day":"Tuesday","val":876905},
+        {"day":"Wednesday","val":878527},
+        {"day":"Thursday","val":914335},
+        {"day":"Friday","val":965007},
+        {"day":"Saturday","val":916691},
+        {"day":"Sunday","val":871992}
+        ],
+
+    "rlvbm": [
+        {"month":"January","val":149974},
+        {"month":"February","val":146217},
+        {"month":"March","val":171701},
+        {"month":"April","val":141387},
+        {"month":"May","val":144815},
+        {"month":"June","val":152495},
+        {"month":"July","val":216716},
+        {"month":"August","val":207921},
+        {"month":"September","val":196127},
+        {"month":"October","val":181555},
+        {"month":"November","val":166041},
+        {"month":"December","val":165189}
+        ],
+
+    "scvbm": [
+        {"month":"January","val":306324},
+        {"month":"February","val":293973},
+        {"month":"March","val":389778},
+        {"month":"April","val":321714},
+        {"month":"May","val":326092},
+        {"month":"June","val":292958},
+        {"month":"July","val":418992},
+        {"month":"August","val":345036},
+        {"month":"September","val":417615},
+        {"month":"October","val":408648},
+        {"month":"November","val":371528},
+        {"month":"December","val":347064}
+        ],
+
+    "ttvbm": [
+        {"month":"January","val":456298},
+        {"month":"February","val":440190},
+        {"month":"March","val":561479},
+        {"month":"April","val":463101},
+        {"month":"May","val":470907},
+        {"month":"June","val":445453},
+        {"month":"July","val":635708},
+        {"month":"August","val":552957},
+        {"month":"September","val":613742},
+        {"month":"October","val":590203},
+        {"month":"November","val":537569},
+        {"month":"December","val":512253}
+        ]
+}

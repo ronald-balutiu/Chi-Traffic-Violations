@@ -1,0 +1,32 @@
+{
+	"rlv": {
+	    "Monday": 246881, 
+	    "Tuesday": 250113, 
+	    "Wednesday": 255543, 
+	    "Thursday": 265202, 
+	    "Friday": 291292, 
+	    "Saturday": 312974, 
+	    "Sunday": 283582
+	},
+
+    "svd": {
+        "Monday": 570419, 
+        "Tuesday": 586221, 
+        "Wednesday": 582277, 
+        "Thursday": 606813, 
+        "Friday": 627215, 
+        "Saturday": 559226, 
+        "Sunday": 547006
+    },
+
+    "tv": {
+    	"Monday": 817300, 
+    	"Tuesday": 836334, 
+    	"Wednesday": 837820, 
+		"Thursday": 872015, 
+		"Friday": 918507, 
+		"Saturday": 872200, 
+		"Sunday": 830588
+    }
+    
+}
