@@ -6,7 +6,7 @@ import {axisLeft} from 'd3-axis';
 import {pie} from 'd3-shape';
 import {arc} from 'd3-shape';
 import {line} from 'd3-shape';
-import MY_DATA from '../app/data/example.json';
+import MY_DATA from '../data/example.json';
 
 const domReady = require('domready');
 

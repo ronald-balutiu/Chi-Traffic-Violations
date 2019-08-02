@@ -138,8 +138,3 @@ def violations_by_day():
 
 violations_by_month()
 #violations_by_day()
-
-
-
-
-

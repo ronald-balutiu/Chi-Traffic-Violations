@@ -1,14 +1,3 @@
-// DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// DONT TOUCH
-// DONT TOUCH // DONT TOUCH // DONT TOUCH
-// Seriously don't touch this file you'll lose a lot of points
-/* eslint-disable */
-
 const argv = require('minimist')(process.argv.slice(2))
 
 const gulp = require('gulp')
@@ -25,12 +14,12 @@ const babelify = require('babelify').configure({
   presets: ['es2015']
 })
 
-const entry = './src/index.js'
+const entry = './app/index.js'
 const outfile = 'bundle.js'
 
 //our CSS pre-processor
 gulp.task('sass', function() {
-  gulp.src('./src/sass/main.scss')
+  gulp.src('./main.scss')
     .pipe(sass({
       outputStyle: argv.production ? 'compressed' : undefined,
       includePaths: [ resetCSS ]
@@ -41,7 +30,7 @@ gulp.task('sass', function() {
 //the development task
 gulp.task('watch', ['sass'], function(cb) {
   //watch SASS
-  gulp.watch('src/sass/*.scss', ['sass'])
+  gulp.watch('./app/*.scss', ['sass'])
 
   //dev server
   budo(entry, {
@@ -61,9 +50,8 @@ gulp.task('bundle', ['sass'], function() {
   var bundler = browserify(entry, { transform: babelify })
         .bundle()
   return bundler
-    .pipe(source('index.js'))
+    .pipe(source('./app/index.js'))
     .pipe(streamify(uglify()))
     .pipe(rename(outfile))
     .pipe(gulp.dest('./app'))
 })
-/* eslint-enable */
